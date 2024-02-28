@@ -3,6 +3,6 @@ terraform {
     bucket         = "tenji-cicd"
     key            = "my-terraform-environment/main"
     region         = "eu-west-3"
-    dynamodb_table = "mrcloudbook-dynamo-db-table"
+    dynamodb_table = "tenji-dynamo-db-table"
   }
 }
